@@ -1,0 +1,18 @@
+ - git config: Um dos comandos git mais usados ​​é o git config que pode ser usado para definir valores de configuração específicos do usuário como e-mail, algoritmo preferido para diff, nome de usuário e formato de arquivo etc
+ Exemplo: git config --global user.email sam@google.com
+ - git init: Este comando é usado para criar um novo repositório GIT.
+ Exemplo: git init
+ - git add: O comando git add pode ser usado para adicionar arquivos ao índice.
+ Exemplo: git add temp.txt
+ - git clone: O comando git clone é usado para fins de verificação de repositório. Se o repositório estiver em um servidor remoto.
+ Exemplo: git clone alex@93.188.160.58:/path/to/repository
+ - git commit: O comando git commit é usado para confirmar as alterações na cabeça. Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto.
+ Exemplo: git commit –m “coloque sua mensagem aqui”
+ - git status: O comando git status exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados.
+ Exemplo: git status
+ - git push: git push é outro dos comandos git básicos mais usados. Um simples envio envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho.
+ Exemplo: git push origin master(main)
+ - git remote: O comando git remote permite que um usuário se conecte a um repositório remoto.
+ Exemplo: git remote –v // git remote add origin <93.188.160.58>
+ - git pull: Para mesclar todas as alterações presentes no repositório remoto para o diretório de trabalho local, o comando pull é usado.
+ Exemplo: git pull
